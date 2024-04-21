@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainSecond"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:backgroundTint="@color/purple"
+    tools:context=".SecondActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/labelText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detail Penduduk"
+                android:textAlignment="center"
+                android:textColor="@color/purple"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nikLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIK :"
+                android:textSize="18dp"
+                android:layout_below="@id/labelText"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/purple"/>
+
+            <TextView
+                android:id="@+id/nikValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="18dp"
+                android:layout_below="@id/nikLabel"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="@color/purple"/>
+
+            <TextView
+                android:id="@+id/namaLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama :"
+                android:textSize="18dp"
+                android:layout_below="@id/nikLabel"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/purple"/>
+
+            <TextView
+                android:id="@+id/namaValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="18dp"
+                android:layout_below="@id/namaLabel"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="@color/purple"/>
+            
+            <TextView
+                android:id="@+id/jenisKelaminLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Kelamin :"
+                android:textSize="18dp"
+                android:layout_below="@id/namaLabel"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/purple"/>
+
+            <TextView
+                android:id="@+id/jkValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="18dp"
+                android:layout_below="@id/jenisKelaminLabel"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="@color/purple"/>
+
+            <TextView
+                android:id="@+id/tempatLahirLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tempat Lahir :"
+                android:textSize="18dp"
+                android:layout_below="@id/jenisKelaminLabel"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/purple"/>
+
+            <TextView
+                android:id="@+id/tempatLahirValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="18dp"
+                android:layout_below="@id/labelText"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="@color/purple"/>
+
+            <TextView
+                android:id="@+id/tanggalLahirLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Lahir :"
+                android:textSize="18dp"
+                android:layout_below="@id/tempatLahirLabel"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/purple"/>
+
+            <TextView
+                android:id="@+id/tanggalLahirValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="18dp"
+                android:layout_below="@id/labelText"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="@color/purple"/>
+
+            <TextView
+                android:id="@+id/alamatLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alamat :"
+                android:textSize="18dp"
+                android:layout_below="@id/tanggalLahirLabel"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/purple"/>
+
+            <TextView
+                android:id="@+id/alamatValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="18dp"
+                android:layout_below="@id/labelText"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="@color/purple"/>
+
+            <TextView
+                android:id="@+id/emailLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email :"
+                android:textSize="18dp"
+                android:layout_below="@id/alamatLabel"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/purple"/>
+
+            <TextView
+                android:id="@+id/emailValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="18dp"
+                android:layout_below="@id/labelText"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="@color/purple"/>
+
+            <TextView
+                android:id="@+id/telponLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telpon :"
+                android:textSize="18dp"
+                android:layout_below="@id/emailLabel"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/purple"/>
+
+            <TextView
+                android:id="@+id/telponValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="18dp"
+                android:layout_below="@id/labelText"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="@color/purple"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/buttonSend"
+                android:text="Kembali"
+                android:textSize="18dp"
+                android:layout_below="@id/telponLabel"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="@color/purple"
+                app:cornerRadius = "10dp"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
